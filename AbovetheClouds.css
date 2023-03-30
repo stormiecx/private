@@ -1,0 +1,94 @@
+/*This is a FREE css layout by Kat #49358. Do not edit, steal, or claim as your own.*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One');
+/*Main Body*/
+body {background: url('https://rare-gallery.com/uploads/posts/503268-blue-sky-clouds.jpg') center center fixed;background-size: 100% !important;color: black;font-family: 'Comfortaa';font-weight: normal}
+body::-webkit-scrollbar {width: 12px;}
+body::-webkit-scrollbar-track {background: #7fa4b2;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+body::-webkit-scrollbar-thumb {border-radius: 10px;background: #c6dbe7;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+cursor:url("https://cur.cursors-4u.net/nature/nat-11/nat1020.cur");
+.topbar {background: rgba(127,164,178,0.7);border: 1px solid white;border-top: none;border-radius: 0 0 10px 10px;color: black;box-shadow: 0 0 2px rgba(0,0,0,0.3);}
+.navbar-header > a > img {content: url('https://i.imgur.com/oaSP9ea.png');}
+.navbar-default {font-family: 'Poiret One';font-weight: bold;background: rgba(127,164,178,0.7);border-bottom: 1px solid white;border-radius: 10px 10px 0 0;}
+.navbar li a {color: black !important;}
+.navbar li a:hover {text-shadow: none !important;background: rgba(198,219,231,0.7) !important;border-left: 1px solid white;border-right: 1px solid white;}
+.container.main {background: rgba(221,221,221,0.4);border: 1px solid white;border-radius: 10px;box-shadow: 0 0 2px rgba(0,0,0,0.3);}
+.col-md-9 {background: none;}
+.feature {background: rgba(198,219,231,0.7) !important;border: 1px solid white !important;box-shadow: none !important;}
+.footer {color: black !important;}
+b > span {color: #7fa4b2 !important;}
+.center.b {color: black !important;}
+.breadcrumb {background: rgba(151,175,180,0.7);border: 1px solid white;}
+.breadcrumb .active {color: black;}
+.alert {background: rgba(151,175,180,0.7);border: 1px solid white;color: black;}
+div.left {background: rgba(127,164,178,0.7);border-radius: 10px;border: 1px solid white;}
+div.left img {opacity: 0.7;}
+.featured-lion {background: rgba(151,175,180);opacity: 0.7;border-radius: 10px;overflow: hidden !important;border: 1px solid white;}
+
+/*Sidebar*/
+.panel {background: rgba(198,219,231,0.7) !important;border: 1px solid white !important;box-shadow: none !important;}
+.progress {background: rgba(221,221,221,0.7);box-shadow: none;}
+.progress div {color: black;}
+.progress-bar {background: rgba(151,175,180,0.7);}
+.chatContainer {border-radius: 10px;border: 1px solid white;}
+.chatContainer::-webkit-scrollbar {width: 12px;}
+.chatContainer::-webkit-scrollbar-track {background: #7fa4b2;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;}
+.chatContainer::-webkit-scrollbar-thumb {border-radius: 10px;background: #c6dbe7;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+.chat_light {background: rgba(198,219,231,0.7);text-align: center;}
+.chat_dark {background: rgba(151,175,180,0.7);text-align: center;}
+
+/*Headers & Links*/
+h1 {font-family: 'Poiret One';font-size: 48px;color: black;}
+h1 small {color: black !important;}
+h3 {font-family: 'Poiret One';font-size: 24px;color: black !important;}
+a:link {color: black !important;}
+a:visited {color: black !important;}
+a:hover {color: black !important;text-shadow: 2px 2px 2px rgba(255,255,255,0.4);}
+
+/*Boxes*/
+.boxcontainer {height: 400px;background: none !important;padding: 15px}
+.scrollyleft {overflow: auto;float:left;height: 350px; width: 400px;background: rgba(127,164,178,0.7);border-radius: 10px;border: 1px solid white;color: black;padding 5px;margin: auto; margin-bottom: 10px;}
+.scrollyright {overflow: auto;float:right;height: 170px;width: 350px;background: rgba(127,164,178,0.7);border-radius: 10px;border: 1px solid white;color: black;padding 5px;margin: auto; margin-bottom: 10px;}
+.scrollyleft::-webkit-scrollbar {width: 12px;}
+.scrollyleft::-webkit-scrollbar-track {background: #7fa4b2;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;}
+.scrollyleft::-webkit-scrollbar-thumb {border-radius: 10px;background: #c6dbe7;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+.scrollyright::-webkit-scrollbar {width: 12px;}
+.scrollyright::-webkit-scrollbar-track {background: #7fa4b2;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;}
+.scrollyright::-webkit-scrollbar-thumb {border-radius: 10px;background: #c6dbe7;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+
+/*Tables*/
+.table {background: rgba(151,175,180,0.7) !important;border-radius: 10px;border: 1px solid white;color: black;border-collapse: separate;}
+.top {background: rgba(127,164,178,0.7) !important;border-radius: 10px 10px 0 0;color: black !important;font-weight: normal;text-align: center;}
+.bottom {background: rgba(127,164,178,0.7) !important;border-radius: 0 0 10px 10px;color: black !important;font-weight: normal;text-align: center;}
+th {background: rgba(127,164,178,0.7) !important;border-radius: 10px;color: black;font-weight: normal;text-align: center;}
+.table .left {background: rgba(127,164,178,0.7) !important;}
+.table .right {background: none !important;}
+.inner-table .right {background: rgba(198,219,231,0.7) !important;}
+.right_odd {background: none !important;}
+.right.cub {background: rgba(198,219,231,0.7) !important;}
+div#lion_image {opacity: 0.7; border-radius: 10px;overflow: hidden;border: 1px solid white;}
+table#player img {opacity: 0.7;}
+
+/*Caves & Mounds*/
+.cave-grid {background: rgba(127,164,178,0.7);border-radius: 10px;border: 1px solid white;}
+.cave-grid img {opacity: 0.7;}
+.mound-grid {background: rgba(127,164,178,0.7);border-radius: 10px;border: 1px solid white;}
+.mound-grid img {opacity: 0.7;}
+
+/*Buttons, Sliders, Dropdowns, & Text Areas*/
+input, select, textarea {background: rgba(127,164,178,0.7) !important;border-radius: 10px;border: 1px solid white !important;color: black !important;text-align: center;text-shadow: none !important;box-shadow: none !important;}
+input:hover, select:focus, textarea:focus {background: rgba(198,219,231,0.7) !important;border-radius: 10px;border: 1px solid white !important;color: black !important;text-align: center;text-shadow: none;box-shadow: none;}
+textarea::-webkit-scrollbar {width: 12px;}
+textarea::-webkit-scrollbar-track {background: #7fa4b2;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;}
+textarea::-webkit-scrollbar-thumb {border-radius: 10px;background: #c6dbe7;box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+.item {background: rgba(198,219,231,0.7);border-radius: 10px;border: 1px solid white;}
+.item-header {background: rgba(127,164,178,0.7);border-radius: 10px 10px 0 0;color: black;}
+.item-footer {background: rgba(127,164,178,0.7);border-radius: 0 0 10px 10px;color: black;}
+.slider.round::before {background-color: white !important;}
+.slider {background-color: #dddddd !important;box-shadow: inset 0 0 5px rgba(0,0,0,0.3);}
+input:checked + .slider {background-color: #7fa4b2 !important;box-shadow: inset 0 0 5px rgba(0,0,0,0.3);}
+
+/*Mobile Adjustments*/
+.navbar-toggle {border: 1px solid white !important;}
+.navbar-collapse {border: none;}
+div.clear.visible-xs.visible-sm {border-bottom: 1px solid white !important;}
+.icon-bar {background: black !important;}
